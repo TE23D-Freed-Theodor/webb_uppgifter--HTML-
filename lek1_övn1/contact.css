@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif; /*font*/
+    margin: 0; /* Definierar marginal */
+    padding: 0; /* Definierar padding */
+    background-color: #f4f4f4; /* Bakgrundsfärg för body */
+    color: #333; /* textfärg */
+}
+
+header {
+    background: #35424a; /* bakgrundsfärg */
+    color: #ffffff; /* header textfärg är vit */
+    padding: 20px 0; /* 20 px padding mot toppen och botten */
+    text-align: center; /* aligns to middle*/
+}
+
+nav {
+    background: #e8491d; /* background colour*/
+    color: #ffffff; /* textfärg */
+    text-align: center; /* center align*/
+}
+
+nav ul {
+    padding: 0; /* sätter padding till 0 (det innanför objektet)*/
+}
+
+nav ul li {
+    display: inline; /* horisontell istället för vertikal */
+    margin: 0 15px; /* horisontell marginal*/
+}
+
+nav ul li a {
+    color: #ffffff; /* textfärg */
+    text-decoration: none; /* ingen understrykning*/
+}
+
+section {
+    padding: 20px; /* padding innanför objekt (20px) */
+    margin: 20px; /* marginal utanför objekt (20px) */
+    background: #ffffff; /* bakgrundsfärg vit */
+    border-radius: 5px; /* gör hörnen runda*/
+}
+
+footer {
+    text-align: center; /* aligns to middle*/
+    padding: 10px; /* padding för 10px INOM objekt*/
+    background: #35424a; /* bakgrundsfärg */
+    color: #ffffff; /* Textfärg */
+    position: relative; /* Positionen är relativ för att kunna kontrollera var den är placerad*/
+    width: 100%; /* Gör sidfoten 100% bred för att täcka hela bredden av sidan */
+}
+
+form {
+    display: flex; /* Använder flexbox för att arrangera formulärets element */
+    flex-direction: column; /* Arrangerar elementen i en kolumn */
+}
+
+textarea {
+    padding: 10px; /* Lägger till padding (10px) inuti textfält och textarea */
+    margin: 5px 0; /* Lägger till vertikal marginal (5px) mellan fälten */
+    border: 1px solid #ccc; /* Sätter en ljusgrå kant runt fälten */
+    border-radius: 4px; /* Rundar hörnen på fälten med 4px */
+}
+
+input[type="submit"] {
+    background: #35424a; /* Sätter bakgrundsfärgen för knappen till mörkblå */
+    color: #ffffff; /* Sätter textfärgen på knappen till vit */
+    border: none; /* Tar bort standardkanten på knappen */
+    padding: 10px; /* Lägger till padding (10px) inuti knappen */
+    cursor: pointer; /* Ändrar muspekaren till en hand när den svävar över knappen */
+    border-radius: 4px; /* Rundar hörnen på knappen med 4px */
+}
+
+input[type="submit"]:hover {
+    background: #e8491d; /* Ändrar bakgrundsfärgen på knappen till röd när muspekaren svävar över den */
+}
+

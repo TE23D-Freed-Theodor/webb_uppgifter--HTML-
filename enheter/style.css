@@ -1,0 +1,40 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    padding: 20px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.list-section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2980b9;
+    text-align: center;
+}
+
+ul, ol {
+    padding-left: 0; /* Remove default padding */
+    text-align: center; /* Center the text */
+    list-style-position: inside; /* Move the list markers inside */
+}
+
+li {
+    margin: 8px 0;
+    padding: 8px;
+    background-color: transparent; /* Ensure the background is transparent before */
+}
+
+li:hover {
+    background-image: url('https://www.listbark.com/wp-content/uploads/2019/12/Funny-Animal.jpg');
+    background-size: cover;
+    background-position: center; 
+    color: white; 
+}
+
